@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IN STORE H&N KONOZ</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: url('background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: rgba(255, 215, 0, 0.8);
+            padding: 20px;
+            font-size: 28px;
+            font-weight: bold;
+            color: black;
+            text-shadow: 2px 2px 5px white;
+            animation: fadeIn 2s ease-in-out;
+        }
+        section {
+            margin: 50px;
+            font-size: 18px;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            animation: slideUp 1.5s ease-in-out;
+        }
+        footer {
+            background: rgba(255, 0, 0, 0.8);
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            font-weight: bold;
+        }
+        a {
+            color: gold;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        a:hover {
+            color: red;
+            text-decoration: underline;
+        }
+        .btn {
+            display: inline-block;
+            background-color: gold;
+            color: black;
+            padding: 10px 20px;
+            margin: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background-color: red;
+            color: white;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideUp {
+            from { transform: translateY(50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <header>Welcome to IN STORE H&N KONOZ</header>
+    <section>
+        <h2>✨ أهلا بكم في متجر اتش&ان كنوز ✨</h2>
+        <p><strong>📌 الوصف:</strong> ستور لبيع مستحضرات التجميل / برفانات / هدايا للنساء والرجال</p>
+        <p><strong>🚚 خدمة الشحن:</strong> يوجد لدينا شحن لجميع المحافظات والدفع عند الاستلام</p>
+        
+        <h3>📍 موقع الاستور:</h3>
+        <p>المنتزه بجوار شارع الملك مول رويال بلازا الدور الأول أمام الشهر العقاري</p>
+        <a class="btn" href="https://maps.app.goo.gl/stCh4TJwLy4S9don8" target="_blank">📍 اضغط هنا للموقع على الخريطة</a>
+        
+        <h3>🌟 عروضنا على السوشيال ميديا:</h3>
+        <a class="btn" href="https://www.facebook.com/share/19mxmY3XmD/" target="_blank">📌 فيسبوك</a>
+        <a class="btn" href="https://t.me/knoz_HN_Store" target="_blank">📌 قناة التليجرام</a>
+        <a class="btn" href="https://www.instagram.com/konoz_hn111?igsh=bzNzenkxNTN0a2U0" target="_blank">📌 إنستجرام</a>
+        <a class="btn" href="https://www.tiktok.com/@konoz_hn?_t=ZS-8uUUJMVfV7y&_r=1" target="_blank">📌 تيكتوك</a>
+        <a class="btn" href="https://whatsapp.com/channel/0029Vb8xEpU3gvWVQL3h2Z0V" target="_blank">📌 جروب واتساب</a>
+        
+        <h3>📞 للتواصل معنا:</h3>
+        <p><strong>📱 أرقام الهاتف:</strong> 01090285072 / 01280633237</p>
+        <a class="btn" href="https://wa.me/message/RZFOOAR6HA5MK1" target="_blank">💬 تواصل مباشر واتساب</a>
+        <a class="btn" href="https://t.me/Konoz_HN" target="_blank">💬 تواصل مباشر تليجرام</a>
+    </section>
+    <footer>&copy; 2025 جميع الحقوق محفوظة - IN STORE H&N KONOZ</footer>
+</body>
+</html>
